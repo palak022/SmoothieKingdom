@@ -1,0 +1,236 @@
+.background{
+    background-color: ;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-repeat: no-repeat;
+    z-index:-1;
+    filter:blur(0px);
+}
+
+.name {
+    font-size: 75px;
+    color: #EEC76B;
+    text-align: center;
+    margin: 150px 0px 10px 0px ;
+}
+
+span{
+    color:#AA3653;
+    font-size: 100px;
+}
+
+.page-one img{
+    margin: 0px 20px 50px 8%;
+    height:500px;
+}
+
+.quote{
+    font-size: 60px;
+    color:#AA3653;
+    margin:150px 0px 150px 50px;
+    text-align: center;
+}
+
+.page-one{
+    display: flex;
+}
+
+.nav{
+    margin:0px 0px 100px 0px ;
+}
+
+#fs-4 h3{
+    font-size: 5px;
+}
+
+#fs-4 span{
+    font-size: 45px;
+}
+
+.best{
+    font-size: 40px;
+    color:#AA3653;
+    margin:25px;
+}
+
+.flex-one{
+    display:flex;
+    justify-content: center;
+}
+
+.flex-one .card .card-body .card-text{
+    font-size: 25px;
+}
+
+.letter h3{
+    font-size: 20px;
+    margin: 9px;
+}
+
+.letter p{
+    font-size: 20px;
+    margin: 9px;
+}
+
+.letter{
+    border:5px solid #AA3653;
+    background-color: #AA365380;
+    margin: 25px 30px 30px 30px;
+}
+
+.pri{
+    font-size: 40px;
+    color:#AA3653;
+    margin:25px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+}
+
+.card-title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 10px;
+    text-align: center;
+}
+
+.card-text span{
+    color:black;
+    font-size: 90px;
+}
+
+.btn{
+    margin: 5px 75px 5px 75px;
+}
+
+.gall{
+    font-size: 40px;
+    color:#AA3653;
+    margin:25px;
+}
+
+.one{
+    height: 500px;
+    margin: 5px;
+    width:370px;
+}
+
+
+.two{
+    height: 500px;
+    width: 370px;
+    margin: 5px;
+}
+
+.three{
+    height: 500px;
+    width: 370px;
+    margin: 5px;
+}
+
+.four{
+    height: 500px;
+    width: 370px;
+    margin: 5px;
+}
+
+.grid{
+    display: flex;
+}
+
+.mb-3 h3{
+    font-size: 20px;
+    color: black;
+}
+
+.mb-3 span{
+    font-size: 40px;
+    color: #AA3653;
+}
+
+.img-one-two{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-three-four{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-one-two , .img-three-four{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width:200px) and (max-width:1000px){
+
+    .page-one img{
+        margin: 0px 20px 50px 8%;
+        height:375px;
+        width:500px;
+    }
+    
+    .quote{
+        font-size: 50px;
+        color:#AA3653;
+        margin:85px 0px 70px 50px;
+        text-align: center;
+    }
+
+    
+.one{
+    height: 500px;
+    margin: 15px;
+    width:370px;
+}
+
+
+.two{
+    height: 500px;
+    width: 370px;
+    margin: 15px;
+}
+
+.three{
+    height: 500px;
+    width: 370px;
+    margin: 15px;
+}
+
+.four{
+    height: 500px;
+    width: 370px;
+    margin: 15px;
+}
+
+.img-one-two{
+    display: flex;
+    justify-content: center;
+}
+
+.img-three-four{
+    display: flex;
+    justify-content: center;
+}
+
+.img-one-two , .img-three-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+}
+
+
+}
